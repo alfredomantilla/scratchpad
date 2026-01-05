@@ -10,33 +10,33 @@
   repos:
     meta-toradex-bsp-common:
       url: https://git.toradex.com/meta-toradex-bsp-common.git
-      refspec: kirkstone-6.x.y
+      refspec: scarthgap-7.x.y
       layers:
         meta-toradex-bsp-common:
 
     meta-toradex-nxp:
       url: https://git.toradex.com/meta-toradex-nxp.git
-      refspec: kirkstone-6.x.y
+      refspec: scarthgap-7.x.y
       layers:
         meta-toradex-bsp-common:
         meta-toradex-nxp:
 
     meta-toradex-distro:
       url: https://git.toradex.com/meta-toradex-distro.git
-      refspec: kirkstone-6.x.y
+      refspec: scarthgap-7.x.y
       layers:
         meta-toradex-distro:
 
     poky:
       url: https://git.yoctoproject.org/poky
-      refspec: kirkstone
+      refspec: scarthgap
       layers:
         meta:
         meta-poky:
 
     meta-openembedded:
       url: http://git.openembedded.org/meta-openembedded
-      refspec: kirkstone
+      refspec: scarthgap
       layers:
         meta-oe:
         meta-python:
