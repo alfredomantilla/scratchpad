@@ -11,20 +11,14 @@
     meta-toradex-bsp-common:
       url: https://git.toradex.com/meta-toradex-bsp-common.git
       refspec: scarthgap-7.x.y
-      layers:
-        .
 
     meta-toradex-nxp:
       url: https://git.toradex.com/meta-toradex-nxp.git
       refspec: scarthgap-7.x.y
-      layers:
-        .
 
     meta-toradex-distro:
       url: https://git.toradex.com/meta-toradex-distro.git
       refspec: scarthgap-7.x.y
-      layers:
-        .
 
     poky:
       url: https://git.yoctoproject.org/poky
