@@ -10,46 +10,46 @@
   repos:
     meta-toradex-torizon:
       url: https://github.com/torizon/meta-toradex-torizon.git
-      refspec: scarthgap-7.x.y
+      branch: scarthgap-7.x.y
 
     meta-toradex-security:
       url: https://github.com/toradex/meta-toradex-security.git
-      refspec: scarthgap-7.x.y
+      branch: scarthgap-7.x.y
   
     meta-toradex-bsp-common:
       url: https://git.toradex.com/meta-toradex-bsp-common.git
-      refspec: scarthgap-7.x.y
+      branch: scarthgap-7.x.y
 
     meta-toradex-nxp:
       url: https://git.toradex.com/meta-toradex-nxp.git
-      refspec: scarthgap-7.x.y
+      branch: scarthgap-7.x.y
 
     meta-toradex-distro:
       url: https://git.toradex.com/meta-toradex-distro.git
-      refspec: scarthgap-7.x.y
+      branch: scarthgap-7.x.y
       
     meta-freescale:
       url: https://github.com/Freescale/meta-freescale.git
-      refspec: scarthgap
+      branch: scarthgap
 
     meta-freescale-3rdparty:
       url: https://github.com/Freescale/meta-freescale-3rdparty.git
-      refspec: scarthgap
+      branch: scarthgap
 
     meta-updater:
       url: https://github.com/uptane/meta-updater.git
-      refspec: scarthgap
+      branch: scarthgap
       
     poky:
       url: https://git.yoctoproject.org/poky
-      refspec: scarthgap
+      branch: scarthgap
       layers:
         meta:
         meta-poky:
 
     meta-openembedded:
       url: http://git.openembedded.org/meta-openembedded
-      refspec: scarthgap
+      branch: scarthgap
       layers:
         meta-oe:
         meta-python:
@@ -58,11 +58,11 @@
 
     meta-security:
       url: https://git.yoctoproject.org/git/meta-security
-      refspec: scarthgap
+      branch: scarthgap
       
     meta-virtualization:
       url: https://git.yoctoproject.org/git/meta-virtualization
-      refspec: scarthgap
+      branch: scarthgap
 
   local_conf_header:
     standard: |
