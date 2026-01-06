@@ -54,7 +54,12 @@
         meta-oe:
         meta-python:
         meta-networking:
+        meta-filesystems:
 
+    meta-security:
+      url: https://git.yoctoproject.org/git/meta-security
+      refspec: scarthgap
+      
     meta-virtualization:
       url: https://git.yoctoproject.org/git/meta-virtualization
       refspec: scarthgap
