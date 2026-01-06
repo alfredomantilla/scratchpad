@@ -9,7 +9,7 @@
 
   repos:
     meta-toradex-torizon:
-      url: https://github.com/toradex/meta-toradex-torizon.git
+      url: https://github.com/torizon/meta-toradex-torizon.git
       refspec: scarthgap-7.x.y
 
     meta-toradex-security:
