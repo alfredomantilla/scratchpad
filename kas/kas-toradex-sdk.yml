@@ -4,10 +4,18 @@
   machine: verdin-imx8mm
   distro: tdx-xwayland
 
-  target: tdx-reference-minimal-image
+  target: torizon-core-podman-dev
   task: populate_sdk
 
   repos:
+    meta-toradex-torizon:
+      url: https://git.toradex.com/meta-toradex-torizon.git
+      refspec: scarthgap-7.x.y
+
+    meta-toradex-security:
+      url: https://git.toradex.com/meta-toradex-security.git
+      refspec: scarthgap-7.x.y
+  
     meta-toradex-bsp-common:
       url: https://git.toradex.com/meta-toradex-bsp-common.git
       refspec: scarthgap-7.x.y
