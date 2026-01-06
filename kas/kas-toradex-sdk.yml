@@ -56,6 +56,10 @@
         meta-networking:
         meta-filesystems:
 
+    meta-arm:
+      url: https://git.yoctoproject.org/git/meta-arm
+      branch: scarthgap
+
     meta-security:
       url: https://git.yoctoproject.org/git/meta-security
       branch: scarthgap
