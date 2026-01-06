@@ -2,7 +2,7 @@
     version: 14
 
   machine: verdin-imx8mm
-  distro: tdx-xwayland
+  distro: torizon-upstream-rt
 
   target: torizon-core-podman-dev
   task: populate_sdk
